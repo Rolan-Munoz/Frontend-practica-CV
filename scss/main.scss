@@ -1,0 +1,37 @@
+@import 'variables';
+@import 'header';
+@import 'main-info';
+@import 'aside';
+
+* {
+    box-sizing: border-box;
+    font-family: $fuente;
+}
+
+body {
+    margin: 0;
+    background-color: $bg-color;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h1, h2, h3 {
+    color: $primary-color;
+}
+
+#content {
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin: auto;
+    
+}
+

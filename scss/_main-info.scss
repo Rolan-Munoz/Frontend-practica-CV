@@ -1,0 +1,55 @@
+@import 'variables';
+
+#main {
+    width: 55%;
+    height: 80vh;
+    background-color: $bg-container;
+    border-radius: 25px;
+    padding: 25px;
+    margin: auto;
+    margin-top: 125px;
+    h2 {
+        text-align: center;
+    }
+
+    .secciones-main {
+        display: flex;
+
+        .column {
+            padding: 20px;
+            margin: 35px;
+            border-radius: 10px;
+            background-color: $bg-color;
+        }
+
+        .fecha {
+            width: 20%;
+        }
+
+        .info {
+            width: 70%;
+        }
+
+        .icons {
+            margin: auto;
+            text-align: center;
+            padding: 10px;
+
+            i {
+                width: 150px;
+                height: 75px;
+                font-size: 75px;
+                font-weight: 100;
+            }
+        }
+
+
+        
+
+        
+    }
+
+    
+
+    
+}

@@ -1,0 +1,23 @@
+@import 'variables';
+
+#header {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    
+
+    #img {
+        width: 300px;
+        border-radius: 10px;
+    }
+
+    #nombre {
+        width: 60%;
+        padding-top: 100px;
+        text-align: center;
+    }
+
+}

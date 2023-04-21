@@ -1,0 +1,126 @@
+#header {
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+#header #img {
+  width: 300px;
+  border-radius: 10px;
+}
+#header #nombre {
+  width: 60%;
+  padding-top: 100px;
+  text-align: center;
+}
+
+#main {
+  width: 55%;
+  height: 80vh;
+  background-color: rgba(164, 88, 194, 0.5);
+  border-radius: 25px;
+  padding: 25px;
+  margin: auto;
+  margin-top: 125px;
+}
+#main h2 {
+  text-align: center;
+}
+#main .secciones-main {
+  display: flex;
+}
+#main .secciones-main .column {
+  padding: 20px;
+  margin: 35px;
+  border-radius: 10px;
+  background-color: rgb(229, 202, 240);
+}
+#main .secciones-main .fecha {
+  width: 20%;
+}
+#main .secciones-main .info {
+  width: 70%;
+}
+#main .secciones-main .icons {
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+#main .secciones-main .icons i {
+  width: 150px;
+  height: 75px;
+  font-size: 75px;
+  font-weight: 100;
+}
+
+#aside {
+  width: 30%;
+  background-color: rgba(164, 88, 194, 0.5);
+  border-radius: 25px;
+  padding: 25px;
+  margin-top: 125px;
+}
+#aside h3 {
+  text-align: center;
+}
+#aside .secciones-aside {
+  margin: 50px 25px;
+  background-color: rgb(229, 202, 240);
+  border-radius: 10px;
+  padding: 20px;
+}
+#aside .secciones-aside .bar-esp {
+  height: 10px;
+  background-color: rgb(68, 11, 90);
+  border: rgb(68, 11, 90) 2px solid;
+  border-radius: 5px;
+}
+#aside .secciones-aside .bar-ing {
+  height: 10px;
+  background-color: rgb(229, 202, 240);
+  border: rgb(68, 11, 90) 2px solid;
+  border-radius: 5px;
+  background: linear-gradient(to right, rgb(68, 11, 90) 70%, rgb(229, 202, 240) 30%);
+}
+#aside .secciones-aside .bar-ita {
+  height: 10px;
+  background-color: rgb(229, 202, 240);
+  border: rgb(68, 11, 90) 2px solid;
+  border-radius: 5px;
+  background: linear-gradient(to right, rgb(68, 11, 90) 50%, rgb(229, 202, 240) 50%);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(229, 202, 240);
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h1, h2, h3 {
+  color: rgb(68, 11, 90);
+}
+
+#content {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  margin: auto;
+}
+
+/*# sourceMappingURL=main.css.map */

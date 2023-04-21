@@ -1,0 +1,42 @@
+@import 'variables';
+
+#aside {
+    width: 30%;
+    background-color: $bg-container;
+    border-radius: 25px;
+    padding: 25px;
+    margin-top: 125px;
+    h3 {
+        text-align: center;
+    }
+
+    .secciones-aside {
+        margin: 50px 25px;
+        background-color: $bg-color;
+        border-radius: 10px;
+        padding: 20px;
+
+        .bar-esp {
+            height: 10px;
+            background-color: $primary-color;
+            border: $primary-color 2px solid;
+            border-radius: 5px;
+        }
+
+        .bar-ing {
+            height: 10px;
+            background-color: $bg-color;
+            border: $primary-color 2px solid;
+            border-radius: 5px;
+            background: linear-gradient(to right, $primary-color 70%, $bg-color 30%);
+        }
+
+        .bar-ita {
+            height: 10px;
+            background-color: $bg-color;
+            border: $primary-color 2px solid;
+            border-radius: 5px;
+            background: linear-gradient(to right, $primary-color 50%, $bg-color 50%);
+        }
+    }
+}
